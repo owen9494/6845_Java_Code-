@@ -9,9 +9,6 @@ public class E_Kwh {
         System.out.println("Rate per Unit(baht)");
         int baht = kb.nextInt();     
         
-        int UnitsConsumed = (kwh*baht); 
-        double vat = UnitsConsumed * 7.5;
-        System.out.println("UnitsConsumed + 7.5% " );
 
 
 
